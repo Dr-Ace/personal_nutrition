@@ -1,0 +1,17 @@
+#profile {
+  select#showResults {
+    max-width: 200px;
+  }
+  .table.goal {
+    width: 100%;
+  }
+  .severe {
+    background-color: rgb(254, 127, 127);
+  }
+  .moderate {
+    background-color: rgb(253, 230, 110);
+  }
+  .low {
+    background-color: rgb(158, 207, 158);
+  }
+}

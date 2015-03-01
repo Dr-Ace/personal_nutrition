@@ -1,0 +1,28 @@
+// .row {
+//   padding-left: 3%;
+//   padding-right: 3%;
+// }
+
+.button-right {
+  text-align: right;
+}
+
+.table {
+  display: table;
+  .table-row, .thead {
+    display: table-row;
+    vertical-align: middle;
+  }
+  .table-cell {
+    display: table-cell;
+    padding: 0.25em 0.5em;
+    // &:empty {
+    //   display: none;
+    // }
+  }
+  .table-row {
+    .table-cell {
+      border: 1px solid whitesmoke;
+    }
+  }
+}
