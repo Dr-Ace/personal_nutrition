@@ -4305,7 +4305,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 /* line 499, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="radio"]:checked, input[type="checkbox"]:checked {
-  background: url("http://taxhelp4foreigners.nl/wp-content/uploads/2014/08/icon_check_white.png") center center/60% no-repeat #5c8938;
+  background: url("../images/check-white.png") center center/60% no-repeat #5c8938;
   outline: 0;
 }
 
@@ -9177,9 +9177,9 @@ th.hide-for-touch {
 }
 /* line 1, ../scss/_base.scss */
 h1 {
-  background: url("../images/insight-logo.png") left center/35% no-repeat;
+  background: url("../images/insight-logo.png") left center/30% no-repeat;
   text-indent: -9999px;
-  height: 1.7em;
+  height: 1.8em;
 }
 
 /* line 19, ../scss/_base.scss */
@@ -9342,31 +9342,33 @@ label + input[type="email"], label + input[type="text"], label + input[type="num
 #plan .item li {
   font-weight: bold;
   margin: 0.5em;
+  font-size: 0.9rem;
 }
-/* line 44, ../scss/pages/_plan.scss */
+/* line 45, ../scss/pages/_plan.scss */
 #plan .item li span {
   display: block;
+  font-size: 1rem;
   padding-left: 0.5em;
   font-weight: normal;
 }
-/* line 49, ../scss/pages/_plan.scss */
+/* line 51, ../scss/pages/_plan.scss */
 #plan .item li:before {
   color: #5c8938;
 }
-/* line 55, ../scss/pages/_plan.scss */
+/* line 57, ../scss/pages/_plan.scss */
 #plan .remind-me label {
   display: inline-block;
 }
-/* line 58, ../scss/pages/_plan.scss */
+/* line 60, ../scss/pages/_plan.scss */
 #plan .remind-me div:not(.method) select {
   display: inline-block;
 }
-/* line 63, ../scss/pages/_plan.scss */
+/* line 65, ../scss/pages/_plan.scss */
 #plan [data-ur-toggler-component="button"] {
   padding-left: 1.2em;
   position: relative;
 }
-/* line 66, ../scss/pages/_plan.scss */
+/* line 68, ../scss/pages/_plan.scss */
 #plan [data-ur-toggler-component="button"]:before {
   content: ">";
   position: absolute;
@@ -9378,16 +9380,17 @@ label + input[type="email"], label + input[type="text"], label + input[type="num
   transform: translateY(-75%) scaleY(1.5);
   background: center center/60% no-repeat;
 }
-/* line 78, ../scss/pages/_plan.scss */
+/* line 80, ../scss/pages/_plan.scss */
 #plan [data-ur-toggler-component="button"][data-ur-state="enabled"]:before {
   top: 0;
   left: 0;
   transform: translateY(60%) scaleX(1.5) rotate(90deg);
 }
-/* line 85, ../scss/pages/_plan.scss */
+/* line 87, ../scss/pages/_plan.scss */
 #plan #reminder-pop-up {
+  font-family: 'Arial', 'helvetica', 'sans-serif';
   background-color: white;
-  border-radius: 2px;
+  border-radius: 5px;
   position: absolute;
   top: 100px;
   width: 90%;
@@ -9395,11 +9398,12 @@ label + input[type="email"], label + input[type="text"], label + input[type="num
   padding: 15px;
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.75);
 }
-/* line 94, ../scss/pages/_plan.scss */
+/* line 97, ../scss/pages/_plan.scss */
 #plan #reminder-pop-up h3 {
   margin-bottom: 1em;
+  font-family: 'Arial', 'helvetica', 'sans-serif';
 }
-/* line 97, ../scss/pages/_plan.scss */
+/* line 101, ../scss/pages/_plan.scss */
 #plan #reminder-pop-up p {
   margin-bottom: 0;
   display: inline-block;
