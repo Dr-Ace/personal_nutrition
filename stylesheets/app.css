@@ -4288,12 +4288,27 @@ select[multiple] {
 /* line 484, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="file"],
 input[type="checkbox"],
-input[type="radio"],
 select {
   margin: 0 0 1rem 0;
 }
 
 /* line 491, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+input[type="radio"] {
+  margin: 2px 0 0.5rem 0;
+  height: 2em;
+  width: 2.1em;
+  border: 1px solid green;
+  padding: 5px;
+  -webkit-appearance: none;
+  vertical-align: top;
+}
+/* line 499, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+input[type="radio"]:checked {
+  background: url("http://taxhelp4foreigners.nl/wp-content/uploads/2014/08/icon_check_white.png") center center/60% no-repeat green;
+  outline: 0;
+}
+
+/* line 505, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   display: inline-block;
@@ -4304,14 +4319,14 @@ input[type="radio"] + label {
 }
 
 /* Normalize file input width */
-/* line 501, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 515, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="file"] {
   width: 100%;
 }
 
 /* HTML5 Number spinners settings */
 /* We add basic fieldset styling */
-/* line 515, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 529, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 fieldset {
   border: 1px solid #DDDDDD;
   padding: 1.25rem;
@@ -4327,7 +4342,7 @@ fieldset legend {
 }
 
 /* Error Handling */
-/* line 522, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 536, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 [data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
   display: block;
   padding: 0.375rem 0.5625rem 0.5625rem;
@@ -4339,12 +4354,12 @@ fieldset legend {
   background: #f04124;
   color: #FFFFFF;
 }
-/* line 525, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 539, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 [data-abide] span.error, [data-abide] small.error {
   display: none;
 }
 
-/* line 528, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 542, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 span.error, small.error {
   display: block;
   padding: 0.375rem 0.5625rem 0.5625rem;
@@ -4357,23 +4372,23 @@ span.error, small.error {
   color: #FFFFFF;
 }
 
-/* line 533, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 547, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error input,
 .error textarea,
 .error select {
   margin-bottom: 0;
 }
-/* line 539, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 553, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error input[type="checkbox"],
 .error input[type="radio"] {
   margin-bottom: 1rem;
 }
-/* line 544, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 558, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error label,
 .error label.error {
   color: #f04124;
 }
-/* line 549, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 563, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error small.error {
   display: block;
   padding: 0.375rem 0.5625rem 0.5625rem;
@@ -4385,7 +4400,7 @@ span.error, small.error {
   background: #f04124;
   color: #FFFFFF;
 }
-/* line 554, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 568, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error > label > small {
   color: #676767;
   background: transparent;
@@ -4396,19 +4411,19 @@ span.error, small.error {
   margin: 0;
   display: inline;
 }
-/* line 566, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 580, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 .error span.error-message {
   display: block;
 }
 
-/* line 571, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 585, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input.error,
 textarea.error,
 select.error {
   margin-bottom: 0;
 }
 
-/* line 576, ../bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 590, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 label.error {
   color: #f04124;
 }
@@ -9281,4 +9296,26 @@ th.hide-for-touch {
 /* line 47, ../scss/pages/_plan.scss */
 #plan [data-ur-toggler-component="button"][data-ur-state="disabled"]:before {
   transform: translateY(-50%) rotate(90deg);
+}
+/* line 52, ../scss/pages/_plan.scss */
+#plan #reminder-pop-up {
+  background-color: white;
+  border-radius: 2px;
+  position: absolute;
+  top: 100px;
+  width: 90%;
+  margin: 0 5%;
+  padding: 15px;
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.75);
+}
+/* line 61, ../scss/pages/_plan.scss */
+#plan #reminder-pop-up h3 {
+  margin-bottom: 1em;
+}
+/* line 64, ../scss/pages/_plan.scss */
+#plan #reminder-pop-up p {
+  margin-bottom: 0;
+  display: inline-block;
+  width: 49%;
+  text-align: center;
 }
