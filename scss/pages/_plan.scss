@@ -21,6 +21,15 @@
         }
       }
     }
+    h3 {
+      span {
+        font-size: 0.7em;
+        &:after {
+          content: ":";
+          margin: 0 0.2em;
+        }
+      }
+    }
   }
   .remind-me {
     label{
