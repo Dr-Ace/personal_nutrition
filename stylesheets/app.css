@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro|Open+Sans:300);
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.1/";
@@ -88,8 +90,8 @@ body {
   color: #222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   font-style: normal;
   line-height: 1.5;
   position: relative;
@@ -1696,7 +1698,7 @@ textarea {
   color: #222222;
   padding: 1rem;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 }
 /* line 143, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -2403,7 +2405,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2434,17 +2436,17 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 /* line 224, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary, .button.secondary {
-  background-color: #e7e7e7;
+  background-color: green;
   border-color: #b9b9b9;
-  color: #333333;
+  color: #FFFFFF;
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  background-color: #b9b9b9;
+  background-color: black;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  color: #333333;
+  color: #FFFFFF;
 }
 /* line 225, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success, .button.success {
@@ -4254,7 +4256,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -4287,13 +4289,12 @@ select[multiple] {
 /* Adjust margin for form elements below */
 /* line 484, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="file"],
-input[type="checkbox"],
 select {
   margin: 0 0 1rem 0;
 }
 
 /* line 491, ../bower_components/foundation/scss/foundation/components/_forms.scss */
-input[type="radio"] {
+input[type="radio"], input[type="checkbox"] {
   margin: 2px 0 0.5rem 0;
   height: 2em;
   width: 2.1em;
@@ -4303,7 +4304,7 @@ input[type="radio"] {
   vertical-align: top;
 }
 /* line 499, ../bower_components/foundation/scss/foundation/components/_forms.scss */
-input[type="radio"]:checked {
+input[type="radio"]:checked, input[type="checkbox"]:checked {
   background: url("http://taxhelp4foreigners.nl/wp-content/uploads/2014/08/icon_check_white.png") center center/60% no-repeat green;
   outline: 0;
 }
@@ -4963,7 +4964,7 @@ kbd {
 /* line 91, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5534,7 +5535,7 @@ ul.pagination li {
   color: #EEEEEE;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* line 143, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -5544,7 +5545,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* line 144, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -5900,7 +5901,7 @@ ul.pagination li {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* line 70, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -5924,7 +5925,7 @@ ul.pagination li {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 /* line 93, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -6110,7 +6111,7 @@ ul.pagination li {
   float: left;
   margin-left: 1rem;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -6388,7 +6389,7 @@ table tr td {
   background-color: #EFEFEF;
   color: #222222;
   padding: 1rem 2rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
 }
 /* line 48, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -6830,7 +6831,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   padding: 12px 0 12px 0;
   padding-left: 0.9375rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
@@ -7662,7 +7663,7 @@ p aside {
 /* Default header styles */
 /* line 252, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -7773,13 +7774,19 @@ dl {
 
 /* line 326, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul {
-  margin-left: 1.1rem;
+  list-style-type: none;
+  margin-left: 10px;
 }
-/* line 328, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 329, ../bower_components/foundation/scss/foundation/components/_type.scss */
+ul li:before {
+  content: "•";
+  margin: 0 5px 0 -10px;
+}
+/* line 335, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet {
   margin-left: 0;
 }
-/* line 331, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 338, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet li ul,
 ul.no-bullet li ol {
   margin-left: 1.25rem;
@@ -7788,42 +7795,42 @@ ul.no-bullet li ol {
 }
 
 /* Unordered Lists */
-/* line 344, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 351, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul li ul,
 ul li ol {
   margin-left: 1.25rem;
   margin-bottom: 0;
 }
-/* line 353, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 360, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.square li ul, ul.circle li ul, ul.disc li ul {
   list-style: inherit;
 }
-/* line 356, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 363, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.square {
   list-style-type: square;
   margin-left: 1.1rem;
 }
-/* line 357, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 364, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.circle {
   list-style-type: circle;
   margin-left: 1.1rem;
 }
-/* line 358, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 365, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.disc {
   list-style-type: disc;
   margin-left: 1.1rem;
 }
-/* line 359, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 366, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ul.no-bullet {
   list-style: none;
 }
 
 /* Ordered Lists */
-/* line 363, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 370, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ol {
   margin-left: 1.4rem;
 }
-/* line 366, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 373, ../bower_components/foundation/scss/foundation/components/_type.scss */
 ol li ul,
 ol li ol {
   margin-left: 1.25rem;
@@ -7831,18 +7838,18 @@ ol li ol {
 }
 
 /* Definition Lists */
-/* line 376, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 383, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dt {
   margin-bottom: 0.3rem;
   font-weight: bold;
 }
-/* line 380, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 387, ../bower_components/foundation/scss/foundation/components/_type.scss */
 dl dd {
   margin-bottom: 0.75rem;
 }
 
 /* Abbreviations */
-/* line 384, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 391, ../bower_components/foundation/scss/foundation/components/_type.scss */
 abbr,
 acronym {
   text-transform: uppercase;
@@ -7851,39 +7858,39 @@ acronym {
   cursor: help;
 }
 
-/* line 391, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 398, ../bower_components/foundation/scss/foundation/components/_type.scss */
 abbr {
   text-transform: none;
 }
-/* line 393, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 400, ../bower_components/foundation/scss/foundation/components/_type.scss */
 abbr[title] {
   border-bottom: 1px dotted #DDDDDD;
 }
 
 /* Blockquotes */
-/* line 399, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 406, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote {
   margin: 0 0 1.25rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
   border-left: 1px solid #DDDDDD;
 }
-/* line 404, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 411, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite {
   display: block;
   font-size: 0.8125rem;
   color: #555555;
 }
-/* line 408, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 415, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite:before {
   content: "\2014 \0020";
 }
-/* line 412, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 419, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
   color: #555555;
 }
 
-/* line 418, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 425, ../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
@@ -7891,29 +7898,29 @@ blockquote p {
 }
 
 /* Microformats */
-/* line 425, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 432, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard {
   display: inline-block;
   margin: 0 0 1.25rem 0;
   border: 1px solid #DDDDDD;
   padding: 0.625rem 0.75rem;
 }
-/* line 431, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 438, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard li {
   margin: 0;
   display: block;
 }
-/* line 435, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 442, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard .fn {
   font-weight: bold;
   font-size: 0.9375rem;
 }
 
-/* line 442, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 449, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent .summary {
   font-weight: bold;
 }
-/* line 444, ../bower_components/foundation/scss/foundation/components/_type.scss */
+/* line 451, ../bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent abbr {
   cursor: default;
   text-decoration: none;
@@ -7923,37 +7930,37 @@ blockquote p {
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 455, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 462, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 
-  /* line 456, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 463, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1 {
     font-size: 2.75rem;
   }
 
-  /* line 457, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 464, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h2 {
     font-size: 2.3125rem;
   }
 
-  /* line 458, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 465, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h3 {
     font-size: 1.6875rem;
   }
 
-  /* line 459, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 466, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h4 {
     font-size: 1.4375rem;
   }
 
-  /* line 460, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 467, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h5 {
     font-size: 1.125rem;
   }
 
-  /* line 461, ../bower_components/foundation/scss/foundation/components/_type.scss */
+  /* line 468, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h6 {
     font-size: 1rem;
   }
@@ -9168,41 +9175,62 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 6, ../scss/_base.scss */
+/* line 1, ../scss/_base.scss */
+h1 {
+  text-align: right;
+  font-family: "Maven Pro", "Open Sans", sans-serif;
+  padding-right: 35px;
+}
+/* line 5, ../scss/_base.scss */
+h1:after {
+  content: "";
+  background: url("http://www.thegoodcalorie.com/wp-content/uploads/2012/09/avocado.jpg") right center/200% no-repeat;
+  height: 50px;
+  width: 25px;
+  position: absolute;
+  margin-left: 10px;
+}
+
+/* line 15, ../scss/_base.scss */
+.brand-name {
+  font-family: "Maven Pro", "Open Sans", sans-serif;
+}
+
+/* line 19, ../scss/_base.scss */
 .button-right {
   text-align: right;
 }
 
-/* line 10, ../scss/_base.scss */
+/* line 23, ../scss/_base.scss */
 .table {
   display: table;
 }
-/* line 12, ../scss/_base.scss */
+/* line 25, ../scss/_base.scss */
 .table .table-row, .table .thead {
   display: table-row;
   vertical-align: middle;
 }
-/* line 16, ../scss/_base.scss */
+/* line 29, ../scss/_base.scss */
 .table .table-cell {
   display: table-cell;
   padding: 0.25em 0.5em;
 }
-/* line 24, ../scss/_base.scss */
+/* line 37, ../scss/_base.scss */
 .table .table-row .table-cell {
   border: 1px solid whitesmoke;
 }
 
-/* line 32, ../scss/_base.scss */
+/* line 45, ../scss/_base.scss */
 [data-ur-toggler-component="content"][data-ur-state="disabled"] {
   display: none;
 }
 
-/* line 35, ../scss/_base.scss */
+/* line 48, ../scss/_base.scss */
 [data-ur-toggler-component="button"] {
   padding-left: 1.2em;
   position: relative;
 }
-/* line 38, ../scss/_base.scss */
+/* line 51, ../scss/_base.scss */
 [data-ur-toggler-component="button"]:before {
   content: "";
   position: absolute;
@@ -9213,15 +9241,29 @@ th.hide-for-touch {
   transform: translateY(-50%) rotate(180deg);
   background: url("https://www.uni.edu/features/sites/default/files/uni_blocks/images/up_arrow.png") center center/60% no-repeat;
 }
-/* line 48, ../scss/_base.scss */
+/* line 61, ../scss/_base.scss */
 [data-ur-toggler-component="button"][data-ur-state="disabled"]:before {
   transform: translateY(-50%) rotate(90deg);
 }
 
-/* line 2, ../scss/pages/_create_profile.scss */
+/* line 65, ../scss/_base.scss */
+[data-ur-tabs-component="content"][data-ur-state="disabled"] {
+  display: none;
+}
+
+/* line 3, ../scss/pages/_create_profile.scss */
 #create-profile form > div {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+/* line 10, ../scss/pages/_create_profile.scss */
+#create-profile label + input[type='number'] {
+  display: inline-block;
+  width: 50%;
+}
+/* line 15, ../scss/pages/_create_profile.scss */
+#create-profile .print {
+  display: none;
 }
 
 /* line 2, ../scss/pages/_profile.scss */
@@ -9249,7 +9291,7 @@ th.hide-for-touch {
 #plan .item {
   border: 1px solid #e6e7e6;
   background-color: #e6e7e6;
-  padding: 1em;
+  padding: 0.5em 1em;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -9259,6 +9301,10 @@ th.hide-for-touch {
   background-color: #e1eae0;
 }
 /* line 12, ../scss/pages/_plan.scss */
+#plan .item.remind-on [data-ur-toggler-component="button"]:before {
+  color: green;
+}
+/* line 15, ../scss/pages/_plan.scss */
 #plan .item.remind-on [data-ur-toggler-component="button"]:after {
   content: "";
   position: absolute;
@@ -9269,44 +9315,51 @@ th.hide-for-touch {
   margin-left: 0.5em;
   background: url("http://www.cecil.ebranch.info/files/252_green%20check%20copy.png") center center/70% no-repeat;
 }
-/* line 25, ../scss/pages/_plan.scss */
+/* line 26, ../scss/pages/_plan.scss */
+#plan .item.remind-on li:before {
+  color: green;
+}
+/* line 31, ../scss/pages/_plan.scss */
 #plan .item h3 span {
   font-size: 0.7em;
 }
-/* line 27, ../scss/pages/_plan.scss */
+/* line 33, ../scss/pages/_plan.scss */
 #plan .item h3 span:after {
   content: ":";
   margin: 0 0.2em;
 }
-/* line 35, ../scss/pages/_plan.scss */
+/* line 41, ../scss/pages/_plan.scss */
 #plan .remind-me label {
   display: inline-block;
 }
-/* line 38, ../scss/pages/_plan.scss */
+/* line 44, ../scss/pages/_plan.scss */
 #plan .remind-me div:not(.method) select {
   display: inline-block;
 }
-/* line 43, ../scss/pages/_plan.scss */
+/* line 49, ../scss/pages/_plan.scss */
 #plan [data-ur-toggler-component="button"] {
   padding-left: 1.2em;
   position: relative;
 }
-/* line 46, ../scss/pages/_plan.scss */
+/* line 52, ../scss/pages/_plan.scss */
 #plan [data-ur-toggler-component="button"]:before {
-  content: "";
+  content: ">";
   position: absolute;
   left: 0;
   height: 1em;
   width: 1em;
   top: 50%;
-  transform: translateY(-50%) rotate(180deg);
-  background: url("https://www.uni.edu/features/sites/default/files/uni_blocks/images/up_arrow.png") center center/60% no-repeat;
+  font-size: 0.8em;
+  transform: translateY(-75%) scaleY(1.5);
+  background: center center/60% no-repeat;
 }
-/* line 56, ../scss/pages/_plan.scss */
-#plan [data-ur-toggler-component="button"][data-ur-state="disabled"]:before {
-  transform: translateY(-50%) rotate(90deg);
+/* line 64, ../scss/pages/_plan.scss */
+#plan [data-ur-toggler-component="button"][data-ur-state="enabled"]:before {
+  top: 0;
+  left: 0;
+  transform: translateY(60%) scaleX(1.5) rotate(90deg);
 }
-/* line 61, ../scss/pages/_plan.scss */
+/* line 71, ../scss/pages/_plan.scss */
 #plan #reminder-pop-up {
   background-color: white;
   border-radius: 2px;
@@ -9317,11 +9370,11 @@ th.hide-for-touch {
   padding: 15px;
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.75);
 }
-/* line 70, ../scss/pages/_plan.scss */
+/* line 80, ../scss/pages/_plan.scss */
 #plan #reminder-pop-up h3 {
   margin-bottom: 1em;
 }
-/* line 73, ../scss/pages/_plan.scss */
+/* line 83, ../scss/pages/_plan.scss */
 #plan #reminder-pop-up p {
   margin-bottom: 0;
   display: inline-block;

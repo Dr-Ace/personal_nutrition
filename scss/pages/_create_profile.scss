@@ -1,6 +1,19 @@
 #create-profile {
-  form > div {
-    margin-top: 1em;
-    margin-bottom: 1em;
+  form {
+    > div {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
   }
+  label {
+    // display: inline-block;
+    + input[type='number'] {
+      display: inline-block;
+      width: 50%;
+    }
+  }
+  .print {
+    display: none;
+  }
+
 }

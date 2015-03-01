@@ -9,8 +9,9 @@
   </head>
   <body id="create-profile">
     <div class="row">
-      <div class="large-12">
+      <div class="large-12 columns">
         <h1>optika</h1>
+        <p>Welcome to <span class="brand-name">optika</span>, the portal for personalized, data-based nutrition. Create your profile in just a few  seconds by completing the information below.</p>
       </div>
     </div>
 
@@ -30,16 +31,14 @@
 
             <div class="large-8 columns">
               <label>Age</label>
-              <input type="range" min="18" max="110">
-            </div>
+              <input type="number" min="0" max="110">
 
-            <div class="large-8 columns">
               <label>How many hours a week do you exercise?</label>
-              <input type="range" min="0" max="60">
+              <input type="number" min="0" max="60">
             </div>
 
             <div class="large-8 columns">
-              <label>Dietary restrictions</label>
+              <h4>Dietary restrictions</h4>
               <input id="vegan" type="checkbox"><label for="vegan">Vegan</label>
               <input id="vegetarian" type="checkbox"><label for="vegetarian">Vegetarian</label>
               <input id="paleo" type="checkbox"><label for="paleo">Paleo</label>
@@ -123,7 +122,7 @@
           <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
         </div>
       </div> -->
-      <div class="large-6 medium-6 columns">
+      <div class="large-6 medium-6 columns print">
         <p>Print this form and share it with your doctor or nutritionist to determine what goals are right for you.</p>
         <a href="#" class="small button">Print form</a>
       </div>

@@ -1,7 +1,20 @@
-// .row {
-//   padding-left: 3%;
-//   padding-right: 3%;
-// }
+h1 {
+  text-align: right;
+  font-family: 'Maven Pro', $body-font-family;
+  padding-right: 35px;
+  &:after {
+    content: "";
+    background: url("http://www.thegoodcalorie.com/wp-content/uploads/2012/09/avocado.jpg") right center/200% no-repeat;
+    height: 50px;
+    width: 25px;
+    position: absolute;
+    margin-left: 10px;
+  }
+}
+
+.brand-name {
+  font-family: 'Maven Pro', $body-font-family;
+}
 
 .button-right {
   text-align: right;
@@ -48,4 +61,7 @@
   &[data-ur-state="disabled"]:before {
     transform: translateY(-50%) rotate(90deg);
   }
+}
+[data-ur-tabs-component="content"][data-ur-state="disabled"] {
+  display: none;
 }
