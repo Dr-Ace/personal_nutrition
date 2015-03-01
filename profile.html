@@ -43,7 +43,7 @@
       .graph {
         flex: 6;
         /*text-decoration: line-through;*/
-        background: linear-gradient(to right, rgba(241,255,222,0) 0%, rgba(236,255,222,0) 29%, rgba(235,255,222,1) 33%, rgba(229,255,223,1) 69%, rgba(228,255,223,0) 72%, rgba(223,255,223,0) 100%);
+        background: linear-gradient(to right, rgba(241,255,222,0) 0%, rgba(236,255,222,0) 30%, rgba(235,255,222,1) 31%, rgba(229,255,223,1) 70%, rgba(228,255,223,0) 71%, rgba(223,255,223,0) 100%);
       }
       .canvas-background {
         height: 187px;
@@ -57,7 +57,7 @@
         width: 100%;
         height: 100%;
         left: 0;
-        background: linear-gradient(to bottom, rgba(224,232,223,0) 0%, rgba(224,232,223,0) 30%, rgba(224,232,223,1) 33%, rgba(224,232,223,1) 72%, rgba(224,232,223,0) 76%, rgba(224,232,223,0) 100%);
+        background: linear-gradient(to bottom, rgba(224,232,223,0) 0%, rgba(224,232,223,0) 25%, rgba(224,232,223,1) 26%, rgba(224,232,223,1) 60%, rgba(224,232,223,0) 61%, rgba(224,232,223,0) 100%);
       }
     </style>
   </head>
@@ -163,7 +163,7 @@
           pointStrokeColor : "#fff",
           pointHighlightFill : "#fff",
           pointHighlightStroke : "rgba(220,220,220,1)",
-          data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+          data : [.05,null,.04,null,.02,.07,.03]
         }
       ]
 
@@ -180,10 +180,15 @@
 
     $( document ).ready(function() {
         $(".chartjs").each(function() {
-          console.log($(this));
           var ctx = this.getContext("2d");
           window.myLine = new Chart(ctx, {width: 375, height: 187})
-          .Line(lineChartData, {bezierCurve : false});
+          .Line(lineChartData, {
+            bezierCurve : false,
+            scaleOverride: true,
+            scaleSteps: 8,
+            scaleStepWidth: .01,
+            scaleStartValue: .01
+          });
         })
     });
 
