@@ -9259,7 +9259,7 @@ label + input[type="email"], label + input[type="text"], label + input[type="num
 }
 /* line 8, ../scss/pages/_create_profile.scss */
 #create-profile input[type="checkbox"] + label, #create-profile input[type="radio"] + label {
-  min-width: 30%;
+  min-width: 32%;
 }
 /* line 13, ../scss/pages/_create_profile.scss */
 #create-profile label + input[type='number'] {
@@ -9269,7 +9269,7 @@ label + input[type="email"], label + input[type="text"], label + input[type="num
 }
 /* line 20, ../scss/pages/_create_profile.scss */
 #create-profile .intensity ~ label {
-  min-width: 10% !important;
+  min-width: 15% !important;
 }
 /* line 24, ../scss/pages/_create_profile.scss */
 #create-profile .print {
