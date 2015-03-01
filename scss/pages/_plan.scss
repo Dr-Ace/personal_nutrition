@@ -1,10 +1,26 @@
 #plan {
   .item {
-    border: 1px solid rgb(225, 234, 224);
+    border: 1px solid rgb(230, 231, 230);
+    background-color: rgb(230, 231, 230);
     padding: 1em;
     border-radius: 10px;
     margin-bottom: 10px;
-    background-color: rgb(225, 234, 224)
+    &.remind-on {
+      border: 1px solid rgb(225, 234, 224);
+      background-color: rgb(225, 234, 224);
+      [data-ur-toggler-component="button"]{
+        &:after {
+          content: "";
+          position: absolute;
+          height: 1em;
+          width: 1em;
+          top: 50%;
+          transform: translateY(-50%);
+          margin-left: 0.5em;
+          background: url("http://www.cecil.ebranch.info/files/252_green%20check%20copy.png") center center/70% no-repeat;
+        }
+      }
+    }
   }
   .remind-me {
     label{
@@ -14,4 +30,23 @@
       display: inline-block;
     }
   }
+
+  [data-ur-toggler-component="button"] {
+    padding-left: 1.2em;
+    position: relative;
+    &:before{
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 1em;
+      width: 1em;
+      top: 50%;
+      transform: translateY(-50%) rotate(180deg);
+      background: url("https://www.uni.edu/features/sites/default/files/uni_blocks/images/up_arrow.png") center center/60% no-repeat;
+    }
+    &[data-ur-state="disabled"]:before {
+      transform: translateY(-50%) rotate(90deg);
+    }
+  }
+
 }

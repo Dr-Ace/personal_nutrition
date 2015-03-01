@@ -4276,7 +4276,7 @@ select:hover {
 }
 /* line 358, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 select:disabled {
-  background-color: #DDDDDD;
+  color: rgba(0, 0, 0, 0.3);
   cursor: default;
 }
 /* line 478, ../bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -9177,6 +9177,32 @@ th.hide-for-touch {
   border: 1px solid whitesmoke;
 }
 
+/* line 32, ../scss/_base.scss */
+[data-ur-toggler-component="content"][data-ur-state="disabled"] {
+  display: none;
+}
+
+/* line 35, ../scss/_base.scss */
+[data-ur-toggler-component="button"] {
+  padding-left: 1.2em;
+  position: relative;
+}
+/* line 38, ../scss/_base.scss */
+[data-ur-toggler-component="button"]:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 1em;
+  width: 1em;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  background: url("https://www.uni.edu/features/sites/default/files/uni_blocks/images/up_arrow.png") center center/60% no-repeat;
+}
+/* line 48, ../scss/_base.scss */
+[data-ur-toggler-component="button"][data-ur-state="disabled"]:before {
+  transform: translateY(-50%) rotate(90deg);
+}
+
 /* line 2, ../scss/pages/_create_profile.scss */
 #create-profile form > div {
   margin-top: 1em;
@@ -9206,17 +9232,53 @@ th.hide-for-touch {
 
 /* line 2, ../scss/pages/_plan.scss */
 #plan .item {
-  border: 1px solid #e1eae0;
+  border: 1px solid #e6e7e6;
+  background-color: #e6e7e6;
   padding: 1em;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+/* line 8, ../scss/pages/_plan.scss */
+#plan .item.remind-on {
+  border: 1px solid #e1eae0;
   background-color: #e1eae0;
 }
-/* line 10, ../scss/pages/_plan.scss */
+/* line 12, ../scss/pages/_plan.scss */
+#plan .item.remind-on [data-ur-toggler-component="button"]:after {
+  content: "";
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 0.5em;
+  background: url("http://www.cecil.ebranch.info/files/252_green%20check%20copy.png") center center/70% no-repeat;
+}
+/* line 26, ../scss/pages/_plan.scss */
 #plan .remind-me label {
   display: inline-block;
 }
-/* line 13, ../scss/pages/_plan.scss */
+/* line 29, ../scss/pages/_plan.scss */
 #plan .remind-me div:not(.method) select {
   display: inline-block;
+}
+/* line 34, ../scss/pages/_plan.scss */
+#plan [data-ur-toggler-component="button"] {
+  padding-left: 1.2em;
+  position: relative;
+}
+/* line 37, ../scss/pages/_plan.scss */
+#plan [data-ur-toggler-component="button"]:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 1em;
+  width: 1em;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  background: url("https://www.uni.edu/features/sites/default/files/uni_blocks/images/up_arrow.png") center center/60% no-repeat;
+}
+/* line 47, ../scss/pages/_plan.scss */
+#plan [data-ur-toggler-component="button"][data-ur-state="disabled"]:before {
+  transform: translateY(-50%) rotate(90deg);
 }

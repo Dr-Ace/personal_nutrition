@@ -26,3 +26,26 @@
     }
   }
 }
+
+
+// Uranium
+[data-ur-toggler-component="content"][data-ur-state="disabled"] {
+  display: none;
+}
+[data-ur-toggler-component="button"] {
+  padding-left: 1.2em;
+  position: relative;
+  &:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 1em;
+    width: 1em;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    background: url("https://www.uni.edu/features/sites/default/files/uni_blocks/images/up_arrow.png") center center/60% no-repeat;
+  }
+  &[data-ur-state="disabled"]:before {
+    transform: translateY(-50%) rotate(90deg);
+  }
+}
