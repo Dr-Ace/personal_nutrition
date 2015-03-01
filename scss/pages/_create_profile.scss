@@ -5,11 +5,20 @@
       margin-bottom: 1em;
     }
   }
+  input[type="checkbox"] + label, input[type="radio"] + label {
+    min-width: 30%;
+  }
   label {
     // display: inline-block;
     + input[type='number'] {
+      margin-top: 0.5em;
       display: inline-block;
       width: 50%;
+    }
+  }
+  .intensity{
+    ~ label {
+      min-width: 10% !important;
     }
   }
   .print {

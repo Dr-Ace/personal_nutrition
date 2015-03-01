@@ -10,8 +10,8 @@
   <body id="create-profile">
     <div class="row">
       <div class="large-12 columns">
-        <h1>optika</h1>
-        <p>Welcome to <span class="brand-name">optika</span>, the portal for personalized, data-based nutrition. Create your profile in just a few  seconds by completing the information below.</p>
+        <h1>Insight</h1>
+        <p>Welcome to <span class="brand-name">Insight</span>, the portal for personalized, data-based nutrition. Create your profile in just a few  seconds by completing the information below.</p>
       </div>
     </div>
 
@@ -22,29 +22,35 @@
 
         <form action="">
           
-            <div class="large-8 columns">
-              <label>Gender</label>
+            <div class="large-8 colum">
+              <label>Which Guidelines would you like to use?</label>
               <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
               <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
-              <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label>
             </div>
 
-            <div class="large-8 columns">
+            <div class="large-8">
               <label>Age</label>
               <input type="number" min="0" max="110">
 
               <label>How many hours a week do you exercise?</label>
               <input type="number" min="0" max="60">
+
+              <p class='intensity'>Level of Intensity</p>
+              <input type="radio" name="intensity" value="low" id="low"><label for="low">Low</label>
+              <input type="radio" name="intensity" value="moderate" id="moderate"><label for="moderate">Moderate</label>
+              <input type="radio" name="intensity" value="intense" id="intense"><label for="intense">Intense</label>
             </div>
 
-            <div class="large-8 columns">
+            <div class="large-8">
               <h4>Dietary restrictions</h4>
-              <input id="vegan" type="checkbox"><label for="vegan">Vegan</label>
+              <input id="vegan" type="checkbox"><label for="vegan">Dairy-free</label>
+              <input id="sugar-free" type="checkbox"><label for="sugar-free">Sugar-free</label>
               <input id="vegetarian" type="checkbox"><label for="vegetarian">Vegetarian</label>
-              <input id="paleo" type="checkbox"><label for="paleo">Paleo</label>
-              <input id="celiac" type="checkbox"><label for="celiac">Celiac</label>
-              <input id="glutenFree" type="checkbox"><label for="glutenFree">Gluten Free</label>
               <input id="grainFree" type="checkbox"><label for="grainFree">Grain Free</label>
+              <input id="lowFat" type="checkbox"><label for="lowFat">Low Fat</label>
+              <input id="peanut-allergy" type="checkbox"><label for="peanut-allergy">Peanut Allergy</label>
+              <input id="low-carb" type="checkbox"><label for="low-carb">Low-carb</label>
+              <input id="gluten-free" type="checkbox"><label for="gluten-free">Gluten Free</label>
             </div>
 
         </form>

@@ -1727,8 +1727,8 @@ textarea {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
   transition: opacity 300ms ease-out;
-  background-color: #008CBA;
-  border-color: #0078a0;
+  background-color: #5c8938;
+  border-color: #4f7630;
   color: #FFFFFF;
 }
 /* line 115, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
@@ -1770,9 +1770,9 @@ textarea {
 }
 /* line 122, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.secondary {
-  background-color: #e7e7e7;
-  border-color: #c7c7c7;
-  color: #4f4f4f;
+  background-color: #dfe7b3;
+  border-color: #cdd987;
+  color: #5f6a21;
 }
 /* line 123, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.warning {
@@ -1784,7 +1784,7 @@ textarea {
 .alert-box.info {
   background-color: #a0d3e8;
   border-color: #74bfdd;
-  color: #4f4f4f;
+  color: #5f6a21;
 }
 /* line 125, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.alert-close {
@@ -2330,8 +2330,8 @@ textarea {
   list-style: none;
   border-style: solid;
   border-width: 1px;
-  background-color: #f4f4f4;
-  border-color: gainsboro;
+  background-color: #f1f4dd;
+  border-color: #e2e9b9;
   border-radius: 3px;
 }
 /* line 122, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
@@ -2341,7 +2341,7 @@ textarea {
   font-size: 0.6875rem;
   line-height: 0.6875rem;
   text-transform: uppercase;
-  color: #008CBA;
+  color: #5c8938;
 }
 /* line 68, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
@@ -2349,7 +2349,7 @@ textarea {
 }
 /* line 70, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > * a {
-  color: #008CBA;
+  color: #5c8938;
 }
 /* line 75, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current {
@@ -2421,14 +2421,14 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
+  background-color: #5c8938;
+  border-color: #4a6e2d;
   color: #FFFFFF;
   transition: background-color 300ms ease-out;
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #007095;
+  background-color: #4a6e2d;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
@@ -2436,13 +2436,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 /* line 224, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary, .button.secondary {
-  background-color: green;
-  border-color: #b9b9b9;
-  color: #FFFFFF;
+  background-color: #dfe7b3;
+  border-color: #c5d375;
+  color: #333333;
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  background-color: black;
+  background-color: #c5d375;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
@@ -2554,8 +2554,8 @@ button.round, .button.round {
 }
 /* line 241, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #008CBA;
-  border-color: #007095;
+  background-color: #5c8938;
+  border-color: #4a6e2d;
   color: #FFFFFF;
   cursor: default;
   opacity: 0.7;
@@ -2563,7 +2563,7 @@ button.disabled, button[disabled], .button.disabled, .button[disabled] {
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #007095;
+  background-color: #4a6e2d;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
@@ -2571,12 +2571,12 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
 }
 /* line 179, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #008CBA;
+  background-color: #5c8938;
 }
 /* line 242, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-  background-color: #e7e7e7;
-  border-color: #b9b9b9;
+  background-color: #dfe7b3;
+  border-color: #c5d375;
   color: #333333;
   cursor: default;
   opacity: 0.7;
@@ -2584,15 +2584,15 @@ button.disabled.secondary, button[disabled].secondary, .button.disabled.secondar
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #b9b9b9;
+  background-color: #c5d375;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  color: #333333;
+  color: #FFFFFF;
 }
 /* line 179, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #e7e7e7;
+  background-color: #dfe7b3;
 }
 /* line 243, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
@@ -4298,14 +4298,14 @@ input[type="radio"], input[type="checkbox"] {
   margin: 2px 0 0.5rem 0;
   height: 2em;
   width: 2.1em;
-  border: 1px solid green;
+  border: 1px solid #5c8938;
   padding: 5px;
   -webkit-appearance: none;
   vertical-align: top;
 }
 /* line 499, ../bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="radio"]:checked, input[type="checkbox"]:checked {
-  background: url("http://taxhelp4foreigners.nl/wp-content/uploads/2014/08/icon_check_white.png") center center/60% no-repeat green;
+  background: url("http://taxhelp4foreigners.nl/wp-content/uploads/2014/08/icon_check_white.png") center center/60% no-repeat #5c8938;
   outline: 0;
 }
 
@@ -4547,7 +4547,7 @@ label.error {
 }
 /* line 182, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
 .icon-bar > a:hover {
-  background: #008CBA;
+  background: #5c8938;
 }
 /* line 186, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
 .icon-bar > a:hover label {
@@ -4559,7 +4559,7 @@ label.error {
 }
 /* line 191, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
 .icon-bar > a.active {
-  background: #008CBA;
+  background: #5c8938;
 }
 /* line 195, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
 .icon-bar > a.active label {
@@ -4974,7 +4974,7 @@ kbd {
   margin-bottom: auto;
   padding: 0.25rem 0.5rem 0.25rem;
   font-size: 0.6875rem;
-  background-color: #008CBA;
+  background-color: #5c8938;
   color: #FFFFFF;
 }
 /* line 96, ../bower_components/foundation/scss/foundation/components/_labels.scss */
@@ -5002,7 +5002,7 @@ kbd {
 }
 /* line 102, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label.secondary {
-  background-color: #e7e7e7;
+  background-color: #dfe7b3;
   color: #333333;
 }
 /* line 103, ../bower_components/foundation/scss/foundation/components/_labels.scss */
@@ -5413,14 +5413,14 @@ ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.p
 }
 /* line 68, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a, ul.pagination li.current button {
-  background: #008CBA;
+  background: #5c8938;
   color: #FFFFFF;
   font-weight: bold;
   cursor: default;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
-  background: #008CBA;
+  background: #5c8938;
 }
 /* line 136, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li {
@@ -5475,10 +5475,10 @@ ul.pagination li {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #b6edff;
+  border-color: #d9eacb;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #ecfaff;
+  background: #f5f9f1;
   color: #333333;
 }
 /* line 55, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -5504,11 +5504,11 @@ ul.pagination li {
 }
 /* line 84, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.callout a:not(.button) {
-  color: #008CBA;
+  color: #5c8938;
 }
 /* line 87, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.callout a:not(.button):hover, .panel.callout a:not(.button):focus {
-  color: #0078a0;
+  color: #4f7630;
 }
 /* line 94, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .panel.radius {
@@ -5586,13 +5586,13 @@ ul.pagination li {
 }
 /* line 61, ../bower_components/foundation/scss/foundation/components/_progress-bars.scss */
 .progress .meter {
-  background: #008CBA;
+  background: #5c8938;
   height: 100%;
   display: block;
 }
 /* line 64, ../bower_components/foundation/scss/foundation/components/_progress-bars.scss */
 .progress.secondary .meter {
-  background: #e7e7e7;
+  background: #dfe7b3;
   height: 100%;
   display: block;
 }
@@ -5668,12 +5668,12 @@ ul.pagination li {
 }
 /* line 148, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.radius .range-slider-handle {
-  background: #008CBA;
+  background: #5c8938;
   border-radius: 3px;
 }
 /* line 117, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.radius .range-slider-handle:hover {
-  background: #007ba4;
+  background: #517931;
 }
 /* line 150, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.round {
@@ -5682,12 +5682,12 @@ ul.pagination li {
 }
 /* line 152, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.round .range-slider-handle {
-  background: #008CBA;
+  background: #5c8938;
   border-radius: 1000px;
 }
 /* line 117, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.round .range-slider-handle:hover {
-  background: #007ba4;
+  background: #517931;
 }
 /* line 154, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.disabled, .range-slider[disabled] {
@@ -5697,13 +5697,13 @@ ul.pagination li {
 }
 /* line 156, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
-  background: #008CBA;
+  background: #5c8938;
   cursor: default;
   opacity: 0.7;
 }
 /* line 117, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.disabled .range-slider-handle:hover, .range-slider[disabled] .range-slider-handle:hover {
-  background: #007ba4;
+  background: #517931;
 }
 
 /* line 159, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
@@ -5711,7 +5711,7 @@ ul.pagination li {
   display: inline-block;
   position: absolute;
   height: 0.875rem;
-  background: #e5e5e5;
+  background: #dee6b0;
 }
 
 /* line 165, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
@@ -5726,11 +5726,11 @@ ul.pagination li {
   cursor: pointer;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  background: #008CBA;
+  background: #5c8938;
 }
 /* line 117, ../bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider-handle:hover {
-  background: #007ba4;
+  background: #517931;
 }
 
 /* line 169, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
@@ -5912,18 +5912,18 @@ ul.pagination li {
 /* line 75, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li a:not(.button) {
   display: block;
-  color: #008CBA;
+  color: #5c8938;
   margin: 0;
   padding: 0.4375rem 0.875rem;
 }
 /* line 80, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
   background: rgba(0, 0, 0, 0.025);
-  color: #1cc7ff;
+  color: #8bbf61;
 }
 /* line 87, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child:not(.button) {
-  color: #1cc7ff;
+  color: #8bbf61;
   font-weight: normal;
   font-family: "Open Sans", sans-serif;
 }
@@ -5937,7 +5937,7 @@ ul.pagination li {
 }
 /* line 101, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.heading {
-  color: #008CBA;
+  color: #5c8938;
   font-size: 0.875rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -6136,7 +6136,7 @@ ul.pagination li {
 .sub-nav li.active a {
   border-radius: 3px;
   font-weight: normal;
-  background: #008CBA;
+  background: #5c8938;
   padding: 0.1875rem 1rem;
   cursor: default;
   color: #FFFFFF;
@@ -6145,7 +6145,7 @@ ul.pagination li {
 .sub-nav dt.active a:hover,
 .sub-nav dd.active a:hover,
 .sub-nav li.active a:hover {
-  background: #0078a0;
+  background: #4f7630;
 }
 
 /* line 212, ../bower_components/foundation/scss/foundation/components/_switches.scss */
@@ -6205,7 +6205,7 @@ ul.pagination li {
 }
 /* line 107, ../bower_components/foundation/scss/foundation/components/_switches.scss */
 .switch input:checked + label {
-  background: #008CBA;
+  background: #5c8938;
 }
 /* line 111, ../bower_components/foundation/scss/foundation/components/_switches.scss */
 .switch input:checked + label:after {
@@ -6236,7 +6236,7 @@ ul.pagination li {
 }
 /* line 163, ../bower_components/foundation/scss/foundation/components/_switches.scss */
 .switch input:checked + label {
-  background: #008CBA;
+  background: #5c8938;
 }
 /* line 123, ../bower_components/foundation/scss/foundation/components/_switches.scss */
 .switch.large label {
@@ -6502,7 +6502,7 @@ table tr td {
 }
 /* line 48, ../bower_components/foundation/scss/foundation/components/_thumbs.scss */
 .th:hover, .th:focus {
-  box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 6px 1px rgba(92, 137, 56, 0.5);
 }
 /* line 63, ../bower_components/foundation/scss/foundation/components/_thumbs.scss */
 .th.radius {
@@ -6519,8 +6519,8 @@ table tr td {
 }
 /* line 44, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #003f54;
-  color: #008CBA;
+  border-bottom: dotted 1px #293e19;
+  color: #5c8938;
 }
 /* line 50, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip.tip-left, .has-tip.tip-right {
@@ -6573,8 +6573,8 @@ table tr td {
 }
 /* line 95, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .tooltip.opened {
-  color: #008CBA !important;
-  border-bottom: dotted 1px #003f54 !important;
+  color: #5c8938 !important;
+  border-bottom: dotted 1px #293e19 !important;
 }
 
 /* line 101, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
@@ -6841,13 +6841,13 @@ meta.foundation-mq-topbar {
   font-size: 0.8125rem;
   padding-right: 0.9375rem;
   padding-left: 0.9375rem;
-  background-color: #008CBA;
-  border-color: #007095;
+  background-color: #5c8938;
+  border-color: #4a6e2d;
   color: #FFFFFF;
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-  background-color: #007095;
+  background-color: #4a6e2d;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
@@ -6855,17 +6855,17 @@ meta.foundation-mq-topbar {
 }
 /* line 335, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
-  background-color: #e7e7e7;
-  border-color: #b9b9b9;
+  background-color: #dfe7b3;
+  border-color: #c5d375;
   color: #333333;
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-  background-color: #b9b9b9;
+  background-color: #c5d375;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-  color: #333333;
+  color: #FFFFFF;
 }
 /* line 336, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success {
@@ -6914,13 +6914,13 @@ meta.foundation-mq-topbar {
   font-size: 0.8125rem;
   padding-right: 0.9375rem;
   padding-left: 0.9375rem;
-  background-color: #008CBA;
-  border-color: #007095;
+  background-color: #5c8938;
+  border-color: #4a6e2d;
   color: #FFFFFF;
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-  background-color: #007095;
+  background-color: #4a6e2d;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
@@ -6928,17 +6928,17 @@ meta.foundation-mq-topbar {
 }
 /* line 347, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button.secondary {
-  background-color: #e7e7e7;
-  border-color: #b9b9b9;
+  background-color: #dfe7b3;
+  border-color: #c5d375;
   color: #333333;
 }
 /* line 162, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-  background-color: #b9b9b9;
+  background-color: #c5d375;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-  color: #333333;
+  color: #FFFFFF;
 }
 /* line 348, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button.success {
@@ -6990,12 +6990,12 @@ meta.foundation-mq-topbar {
 }
 /* line 363, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
-  background: #008CBA;
+  background: #5c8938;
   color: #FFFFFF;
 }
 /* line 366, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a:hover {
-  background: #0078a0;
+  background: #4f7630;
   color: #FFFFFF;
 }
 /* line 374, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7200,11 +7200,11 @@ meta.foundation-mq-topbar {
     padding: 0 0.9375rem;
     line-height: 2.8125rem;
     color: #FFFFFF;
-    background: #008CBA;
+    background: #5c8938;
   }
   /* line 534, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background: #0078a0;
+    background: #4f7630;
     color: #FFFFFF;
   }
   /* line 544, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7343,7 +7343,7 @@ meta.foundation-mq-topbar {
   }
   /* line 677, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #008CBA;
+    background: #5c8938;
     color: #FFFFFF;
   }
   /* line 685, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7625,13 +7625,13 @@ td {
 /* Default Link Styles */
 /* line 217, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a {
-  color: #008CBA;
+  color: #5c8938;
   text-decoration: none;
   line-height: inherit;
 }
 /* line 222, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #0078a0;
+  color: #4f7630;
 }
 /* line 230, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -7753,10 +7753,10 @@ code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
   color: #333333;
-  background-color: #f8f8f8;
+  background-color: #f5f8e8;
   border-width: 1px;
   border-style: solid;
-  border-color: #dfdfdf;
+  border-color: #e6ecc4;
   padding: 0.125rem 0.3125rem 0.0625rem;
 }
 
@@ -7766,7 +7766,7 @@ ul,
 ol,
 dl {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.4em;
   margin-bottom: 1.25rem;
   list-style-position: outside;
   font-family: inherit;
@@ -9177,60 +9177,61 @@ th.hide-for-touch {
 }
 /* line 1, ../scss/_base.scss */
 h1 {
-  text-align: right;
-  font-family: "Maven Pro", "Open Sans", sans-serif;
-  padding-right: 35px;
-}
-/* line 5, ../scss/_base.scss */
-h1:after {
-  content: "";
-  background: url("http://www.thegoodcalorie.com/wp-content/uploads/2012/09/avocado.jpg") right center/200% no-repeat;
-  height: 50px;
-  width: 25px;
-  position: absolute;
-  margin-left: 10px;
-}
-
-/* line 15, ../scss/_base.scss */
-.brand-name {
-  font-family: "Maven Pro", "Open Sans", sans-serif;
+  background: url("../images/insight-logo.png") left center/35% no-repeat;
+  text-indent: -9999px;
+  height: 1.7em;
 }
 
 /* line 19, ../scss/_base.scss */
+.button.cta {
+  background-color: #fe7d2a;
+}
+
+/* line 23, ../scss/_base.scss */
+.brand-name {
+  font-weight: bold;
+}
+
+/* line 28, ../scss/_base.scss */
 .button-right {
   text-align: right;
 }
 
-/* line 23, ../scss/_base.scss */
+/* line 32, ../scss/_base.scss */
 .table {
   display: table;
 }
-/* line 25, ../scss/_base.scss */
+/* line 34, ../scss/_base.scss */
 .table .table-row, .table .thead {
   display: table-row;
   vertical-align: middle;
 }
-/* line 29, ../scss/_base.scss */
+/* line 38, ../scss/_base.scss */
 .table .table-cell {
   display: table-cell;
   padding: 0.25em 0.5em;
 }
-/* line 37, ../scss/_base.scss */
+/* line 46, ../scss/_base.scss */
 .table .table-row .table-cell {
   border: 1px solid whitesmoke;
 }
 
-/* line 45, ../scss/_base.scss */
+/* line 53, ../scss/_base.scss */
+label + input[type="email"], label + input[type="text"], label + input[type="num"], label + input[type="password"] {
+  margin-top: 0.5em;
+}
+
+/* line 59, ../scss/_base.scss */
 [data-ur-toggler-component="content"][data-ur-state="disabled"] {
   display: none;
 }
 
-/* line 48, ../scss/_base.scss */
+/* line 62, ../scss/_base.scss */
 [data-ur-toggler-component="button"] {
   padding-left: 1.2em;
   position: relative;
 }
-/* line 51, ../scss/_base.scss */
+/* line 65, ../scss/_base.scss */
 [data-ur-toggler-component="button"]:before {
   content: "";
   position: absolute;
@@ -9241,12 +9242,12 @@ h1:after {
   transform: translateY(-50%) rotate(180deg);
   background: url("https://www.uni.edu/features/sites/default/files/uni_blocks/images/up_arrow.png") center center/60% no-repeat;
 }
-/* line 61, ../scss/_base.scss */
+/* line 75, ../scss/_base.scss */
 [data-ur-toggler-component="button"][data-ur-state="disabled"]:before {
   transform: translateY(-50%) rotate(90deg);
 }
 
-/* line 65, ../scss/_base.scss */
+/* line 79, ../scss/_base.scss */
 [data-ur-tabs-component="content"][data-ur-state="disabled"] {
   display: none;
 }
@@ -9256,12 +9257,21 @@ h1:after {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 10, ../scss/pages/_create_profile.scss */
+/* line 8, ../scss/pages/_create_profile.scss */
+#create-profile input[type="checkbox"] + label, #create-profile input[type="radio"] + label {
+  min-width: 30%;
+}
+/* line 13, ../scss/pages/_create_profile.scss */
 #create-profile label + input[type='number'] {
+  margin-top: 0.5em;
   display: inline-block;
   width: 50%;
 }
-/* line 15, ../scss/pages/_create_profile.scss */
+/* line 20, ../scss/pages/_create_profile.scss */
+#create-profile .intensity ~ label {
+  min-width: 10% !important;
+}
+/* line 24, ../scss/pages/_create_profile.scss */
 #create-profile .print {
   display: none;
 }
@@ -9297,12 +9307,12 @@ h1:after {
 }
 /* line 8, ../scss/pages/_plan.scss */
 #plan .item.remind-on {
-  border: 1px solid #e1eae0;
-  background-color: #e1eae0;
+  border: 1px solid #dfe7b3;
+  background-color: #dfe7b3;
 }
 /* line 12, ../scss/pages/_plan.scss */
 #plan .item.remind-on [data-ur-toggler-component="button"]:before {
-  color: green;
+  color: #5c8938;
 }
 /* line 15, ../scss/pages/_plan.scss */
 #plan .item.remind-on [data-ur-toggler-component="button"]:after {
@@ -9313,35 +9323,50 @@ h1:after {
   top: 50%;
   transform: translateY(-50%);
   margin-left: 0.5em;
-  background: url("http://www.cecil.ebranch.info/files/252_green%20check%20copy.png") center center/70% no-repeat;
+  background: url("../images/check-green.png") center center/70% no-repeat;
 }
-/* line 26, ../scss/pages/_plan.scss */
+/* line 27, ../scss/pages/_plan.scss */
 #plan .item.remind-on li:before {
-  color: green;
+  color: #5c8938;
 }
-/* line 31, ../scss/pages/_plan.scss */
+/* line 33, ../scss/pages/_plan.scss */
 #plan .item h3 span {
   font-size: 0.7em;
 }
-/* line 33, ../scss/pages/_plan.scss */
+/* line 35, ../scss/pages/_plan.scss */
 #plan .item h3 span:after {
   content: ":";
   margin: 0 0.2em;
 }
 /* line 41, ../scss/pages/_plan.scss */
+#plan .item li {
+  font-weight: bold;
+  margin: 0.5em;
+}
+/* line 44, ../scss/pages/_plan.scss */
+#plan .item li span {
+  display: block;
+  padding-left: 0.5em;
+  font-weight: normal;
+}
+/* line 49, ../scss/pages/_plan.scss */
+#plan .item li:before {
+  color: #5c8938;
+}
+/* line 55, ../scss/pages/_plan.scss */
 #plan .remind-me label {
   display: inline-block;
 }
-/* line 44, ../scss/pages/_plan.scss */
+/* line 58, ../scss/pages/_plan.scss */
 #plan .remind-me div:not(.method) select {
   display: inline-block;
 }
-/* line 49, ../scss/pages/_plan.scss */
+/* line 63, ../scss/pages/_plan.scss */
 #plan [data-ur-toggler-component="button"] {
   padding-left: 1.2em;
   position: relative;
 }
-/* line 52, ../scss/pages/_plan.scss */
+/* line 66, ../scss/pages/_plan.scss */
 #plan [data-ur-toggler-component="button"]:before {
   content: ">";
   position: absolute;
@@ -9353,13 +9378,13 @@ h1:after {
   transform: translateY(-75%) scaleY(1.5);
   background: center center/60% no-repeat;
 }
-/* line 64, ../scss/pages/_plan.scss */
+/* line 78, ../scss/pages/_plan.scss */
 #plan [data-ur-toggler-component="button"][data-ur-state="enabled"]:before {
   top: 0;
   left: 0;
   transform: translateY(60%) scaleX(1.5) rotate(90deg);
 }
-/* line 71, ../scss/pages/_plan.scss */
+/* line 85, ../scss/pages/_plan.scss */
 #plan #reminder-pop-up {
   background-color: white;
   border-radius: 2px;
@@ -9370,14 +9395,54 @@ h1:after {
   padding: 15px;
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.75);
 }
-/* line 80, ../scss/pages/_plan.scss */
+/* line 94, ../scss/pages/_plan.scss */
 #plan #reminder-pop-up h3 {
   margin-bottom: 1em;
 }
-/* line 83, ../scss/pages/_plan.scss */
+/* line 97, ../scss/pages/_plan.scss */
 #plan #reminder-pop-up p {
   margin-bottom: 0;
   display: inline-block;
   width: 49%;
   text-align: center;
+}
+
+/* line 2, ../scss/pages/_import_data.scss */
+#import-data label {
+  display: none;
+}
+/* line 5, ../scss/pages/_import_data.scss */
+#import-data .success {
+  background-color: #dfe7b3;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+/* line 10, ../scss/pages/_import_data.scss */
+#import-data .success ul {
+  margin-left: 0;
+}
+/* line 12, ../scss/pages/_import_data.scss */
+#import-data .success ul li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 20px;
+  text-align: left;
+}
+/* line 17, ../scss/pages/_import_data.scss */
+#import-data .success ul li:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  background: url("../images/check-green.png") center center/70% no-repeat;
+  height: 1.2em;
+  width: 15px;
+}
+/* line 28, ../scss/pages/_import_data.scss */
+#import-data h4 span {
+  font-weight: bold;
+}
+/* line 31, ../scss/pages/_import_data.scss */
+#import-data .button.hide {
+  display: none;
 }

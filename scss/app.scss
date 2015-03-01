@@ -1,6 +1,7 @@
+
+@import "variables";
 @import "settings";
 @import url(http://fonts.googleapis.com/css?family=Maven+Pro|Open+Sans:300);
-@import "variables";
 @import "foundation";
 
 @import "base";
@@ -9,6 +10,7 @@
 @import "pages/create_profile";
 @import "pages/profile";
 @import "pages/plan";
+@import "pages/import_data";
 
 
 // Or selectively include components

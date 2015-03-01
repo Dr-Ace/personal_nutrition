@@ -20,11 +20,13 @@
           top: 50%;
           transform: translateY(-50%);
           margin-left: 0.5em;
-          background: url("http://www.cecil.ebranch.info/files/252_green%20check%20copy.png") center center/70% no-repeat;
+          background: url("../images/check-green.png") center center/70% no-repeat;
         }
       }
-      li:before {
-        color: $green-dark;
+      li {
+        &:before {
+          color: $green-dark;
+        }
       }
     }
     h3 {
@@ -34,6 +36,18 @@
           content: ":";
           margin: 0 0.2em;
         }
+      }
+    }
+    li {
+      font-weight: bold;
+      margin: 0.5em;
+      span {
+        display: block;
+        padding-left: 0.5em;
+        font-weight: normal;
+      }
+      &:before {
+        color: $green-dark;
       }
     }
   }
